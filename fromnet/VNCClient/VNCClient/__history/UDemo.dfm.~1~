@@ -1,0 +1,47 @@
+object viewer_frm: Tviewer_frm
+  Left = 232
+  Top = 131
+  Width = 337
+  Height = 215
+  Caption = 'viewer_frm'
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Arial'
+  Font.Style = []
+  OldCreateOrder = False
+  OnClose = FormClose
+  OnMouseDown = FormMouseDown
+  OnMouseMove = FormMouseMove
+  PixelsPerInch = 96
+  TextHeight = 14
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 162
+    Width = 329
+    Height = 19
+    Panels = <
+      item
+        Width = 150
+      end
+      item
+        Width = 50
+      end
+      item
+        Width = 150
+      end>
+  end
+  object RFBClient: TIdTCPClient
+    MaxLineAction = maException
+    ReadTimeout = 0
+    OnConnected = RFBClientConnected
+    Port = 5900
+    Left = 8
+    Top = 8
+  end
+  object IdAntiFreeze1: TIdAntiFreeze
+    Left = 48
+    Top = 8
+  end
+end

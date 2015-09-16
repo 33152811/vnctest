@@ -1,0 +1,33 @@
+#------------------------------------------------------------------------------
+VERSION = BWS.01
+#------------------------------------------------------------------------------
+!ifndef ROOT
+ROOT = $(MAKEDIR)\..
+!endif
+#------------------------------------------------------------------------------
+MAKE = $(ROOT)\bin\make.exe -$(MAKEFLAGS) -f$**
+DCC = $(ROOT)\bin\dcc32.exe $**
+BRCC = $(ROOT)\bin\brcc32.exe $**
+#------------------------------------------------------------------------------
+PROJECTS = rtcSDKx3.bpl rtcSDKx3_DBA.bpl rtcSDKx3_Gate.bpl rtcSDKx3_Raw.bpl \
+  rtcSDKx3_DBCli.bpl
+#------------------------------------------------------------------------------
+default: $(PROJECTS)
+#------------------------------------------------------------------------------
+
+rtcSDKx3.bpl: Lib\rtcSDKx3.dpk
+  $(DCC)
+
+rtcSDKx3_DBA.bpl: Lib\rtcSDKx3_DBA.dpk
+  $(DCC)
+
+rtcSDKx3_Gate.bpl: Lib\rtcSDKx3_Gate.dpk
+  $(DCC)
+
+rtcSDKx3_Raw.bpl: Lib\rtcSDKx3_Raw.dpk
+  $(DCC)
+
+rtcSDKx3_DBCli.bpl: Lib\rtcSDKx3_DBCli.dpk
+  $(DCC)
+
+

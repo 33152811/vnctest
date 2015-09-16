@@ -1,0 +1,49 @@
+object Viewer_F: TViewer_F
+  Left = 247
+  Top = 234
+  Width = 490
+  Height = 357
+  ActiveControl = Viewer
+  Caption = 'Viewer_F'
+  Color = clButton
+  Font.Color = clText
+  Font.Height = 11
+  Font.Name = 'MS Sans Serif'
+  Font.Pitch = fpVariable
+  Font.Style = []
+  ParentFont = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 14
+  TextWidth = 6
+  object Viewer: TDelphiVNCViewer
+    Left = 0
+    Top = 0
+    Width = 490
+    Height = 357
+    Cursor = crCross
+    align = alClient
+    Color = clBlack
+    Port = 0
+    ShareDesktop = False
+    PixelFormat = VNCAuto
+    FrameUpdateDelay = 1
+    EnableBell = False
+    Display = 0
+    AutoScroll = True
+    Codec = vncHextile
+    TransferKeys = True
+    TransferLocalClipboard = True
+    TransferMouse = True
+    TransferServerClipBoard = True
+    RequestFreames = True
+    Stretch = False
+  end
+  object Timer1: TTimer
+    Interval = 1
+    OnTimer = Timer1Timer
+    Left = 200
+    Top = 176
+  end
+end

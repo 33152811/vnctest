@@ -1,0 +1,195 @@
+[Closed Files]
+File_0=SourceModule,'D:\2004年项目\Delphi Projects\Shareware\VNC Manager\main_u.pas',0,1,788,5,790,0,0
+File_1=SourceModule,'D:\2004年项目\Delphi Projects\Shareware\VNC Manager\option_u.pas',0,1,1,41,11,1,0
+File_2=SourceModule,'D:\2004年项目\Delphi Projects\Shareware\VNC Manager\viewer_u.pas',0,1,95,44,99,1,0
+File_3=SourceModule,'D:\2004年项目\Delphi Projects\VCL Component\VNCViewer\VNCViewer.pas',0,1,831,54,860,0,0
+File_4=SourceModule,'D:\2004年项目\Delphi Projects\Shareware\VNC Manager\SelectGroup_u.pas',0,1,27,18,43,1,0
+File_5=SourceModule,'D:\2004年项目\Delphi Projects\Shareware\VNC Manager\RegisterServer_u.pas',0,30,22,122,41,1,0
+File_6=SourceModule,'D:\2004年项目\Delphi Projects\VCL Component\VNCViewer\Demo\Unit1.pas',0,1,28,59,36,0,0
+File_7=SourceModule,'c:\program files\borland\delphi7\source\vcl\Forms.pas',0,1,100,15,114,0,0
+File_8=SourceModule,'c:\program files\borland\delphi7\source\vcl\Controls.pas',0,1,495,91,513,0,0
+File_9=SourceModule,'c:\program files\borland\delphi7\source\rtl\Win\Windows.pas',0,1,15033,16,15050,0,0
+
+[Modules]
+Count=0
+EditWindowCount=0
+PackageWindowCount=1
+
+[D:\2004年项目\Delphi Projects\VCL Component\VNCViewer\DVNC.dpk]
+FormState=0
+FormOnTop=0
+
+[C:\Program Files\Borland\Delphi7\Projects\ProjectGroup1.bpg]
+FormState=0
+FormOnTop=0
+
+[D:\2004年项目\Delphi Projects\Shareware\VNC Manager\VNCManager.dpr]
+FormState=0
+FormOnTop=0
+
+[PackageWindow0]
+Create=1
+Visible=0
+State=0
+Left=252
+Top=241
+Width=368
+Height=244
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=360
+ClientHeight=216
+TBDockHeight=244
+LRDockWidth=368
+Dockable=1
+StatusBar=0
+TextLabels=1
+Toolbar=1
+SectionWidth0=150
+SectionWidth1=210
+Module=D:\2004年项目\Delphi Projects\VCL Component\VNCViewer\DVNC.dpk
+
+[Watches]
+Count=0
+
+[Breakpoints]
+Count=1
+Breakpoint0='D:\2004年项目\Delphi Projects\VCL Component\VNCViewer\VNCViewer.pas',851,'',0,1,'',1,0,0,'',1,'','',''
+
+[AddressBreakpoints]
+Count=0
+
+[Main Window]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=0
+Width=1024
+Height=297
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=1016
+ClientHeight=269
+
+[ProjectManager]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=0
+Width=249
+Height=668
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=249
+ClientHeight=668
+TBDockHeight=303
+LRDockWidth=438
+Dockable=1
+
+[Components]
+Left=0
+Top=0
+Width=249
+Height=668
+Create=1
+Visible=1
+State=0
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=249
+ClientHeight=668
+TBDockHeight=233
+LRDockWidth=183
+Dockable=1
+
+[AlignmentPalette]
+Create=1
+Visible=0
+State=0
+Left=0
+Top=0
+Width=156
+Height=86
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=150
+ClientHeight=60
+
+[PropertyInspector]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=0
+Width=249
+Height=668
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=249
+ClientHeight=668
+TBDockHeight=557
+LRDockWidth=190
+Dockable=1
+SplitPos=85
+ArrangeBy=Name
+SelectedItem=
+ExpandedItems=Options
+HiddenCategories=
+
+[ObjectTree]
+Create=1
+Visible=1
+State=0
+Left=0
+Top=0
+Width=249
+Height=668
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=249
+ClientHeight=668
+TBDockHeight=366
+LRDockWidth=190
+Dockable=1
+
+[fmGrepResults]
+Create=1
+Visible=0
+State=0
+Left=380
+Top=261
+Width=519
+Height=438
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=511
+ClientHeight=410
+TBDockHeight=438
+LRDockWidth=519
+Dockable=1
+
+[DockHosts]
+DockHostCount=1
+
+[DockSite0]
+DockSiteType=1
+Create=1
+Visible=1
+State=0
+Left=-1
+Top=247
+Width=284
+Height=704
+MaxLeft=-1
+MaxTop=-1
+ClientWidth=276
+ClientHeight=676
+TBDockHeight=803
+LRDockWidth=284
+Dockable=1
+TabPosition=2
+ActiveTab=Project Manager
+TabDockClients=PropertyInspector,ObjectTree,ProjectManager,Components
+

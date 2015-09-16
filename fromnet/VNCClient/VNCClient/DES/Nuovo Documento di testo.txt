@@ -1,0 +1,26 @@
+
+   procedure deskey(key:pchar;edf:short); stdcall; external '\\serverdev\comune\x Roberto\DES\des.dll';
+   procedure des(inblock, outblock:Pchar); stdcall; external '\\serverdev\comune\x Roberto\DES\des.dll';
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.DFM}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var x,y,z:pchar;
+begin
+{x:='mimmo';
+deskey(x,0);
+ShowMessage(x);
+y:='2323213';
+des(y,z);
+ShowMessage(z);
+}
+x:='mimmo';
+deskey(x,1);
+ShowMessage(x);
+y:='NˆîôÖ]‘ô&&';
+des(y,z);
+ShowMessage(z);

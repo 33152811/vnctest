@@ -1,0 +1,39 @@
+RealThinClient SDK Starter Edition
+http://www.realthinclient.com
+
+Copyright (c) 2004-2015 by Danijel Tkalcec
+All rights reserved.
+
+This is a NON-COMMERCIAL edition of the RealThinClient SDK. As such, it may NOT be used 
+for building commercial products. Before you start building commercial products, you will 
+need a (commercial) RealThinClient license from http://www.realthinclient.com
+
+By using the RealThinClient SDK Starter Edition ("RTC SDK"),
+you are accepting these licensing terms ...
+
+You have the right to use the files contained in this package to build NON-COMMERCIAL
+products and distribute your products in compiled binary form (EXE), free of charge.
+
+You do NOT have the right to include RTC SDK files with your product, plug-in and/or 
+add-on. You may NOT distribute, copy, give away or sell any files or even parts of 
+files from the RTC SDK package. This limitation also applies to all modified and/or 
+compiled versions of those files, including but not limited to source code, compiled 
+units, object files and dynamic link libraries.
+
+You may not propagate, distribute or modify a covered work except as expressly provided 
+under this License. Any attempt otherwise to propagate, distribute or modify it is void, and 
+will automatically terminate your rights under this License. This License and the rights granted 
+hereunder will terminate automatically if you fail to comply with terms herein and fail to cure 
+such breach within 7 days of becoming aware of the breach. Provisions which, by their nature, 
+must remain in effect beyond the termination of this License shall survive.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. 
+
+IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, 
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, 
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT 
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE 
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
